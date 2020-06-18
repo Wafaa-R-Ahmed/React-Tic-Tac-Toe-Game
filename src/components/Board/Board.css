@@ -1,0 +1,27 @@
+.game {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  display: block;
+}
+
+.board-row {
+  display: flex;
+  align-items: flex-start;
+
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.status {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 2rem;
+  font-size: 1rem;
+  color: rgb(11, 82, 109);
+}

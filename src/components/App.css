@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #d1f0ee;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2rem;
+  font-size: calc(20px + 4vmin);
+  color: rgb(11, 82, 109);
+}
+

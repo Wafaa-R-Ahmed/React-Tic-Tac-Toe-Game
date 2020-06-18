@@ -1,0 +1,53 @@
+{
+  "name": "cra-test",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/node": "^7.10.1",
+    "@babel/preset-env": "^7.10.2",
+    "@babel/preset-react": "^7.10.1",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "babel-loader": "^8.1.0",
+    "express": "^4.17.1",
+    "npm-check-unused": "^6.0.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.1",
+    "webpack-cli": "^3.3.11"
+  },
+  "scripts": {
+    "dev-server": "nodemon --exec babel-node src/server.js --ignore dist/",
+    "dev-bundle": "webpack -w -d",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "jest",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.6.0",
+    "eslint-plugin-react": "^6.6.0",
+    "eslint-plugin-react-hooks": "^4.0.4",
+    "jest": "^24.9.0",
+    "nodemon": "^2.0.4",
+    "react-test-renderer": "^16.13.1"
+  }
+}

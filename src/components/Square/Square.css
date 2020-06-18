@@ -1,0 +1,17 @@
+.square-button {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  /* display: inline-block; */
+  border: 1px solid gray;
+  height: 7rem;
+  width: 7rem;
+  line-height: 7rem;
+  padding: .5rem;
+  cursor: pointer;
+  margin: 0px;
+}
+
+.square-button:focus {
+  outline: none;
+}
