@@ -11,11 +11,11 @@
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "babel-loader": "^8.1.0",
-    "express": "^4.17.1",
+    "express": "^4.22.1",
     "npm-check-unused": "^6.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1",
+    "react-scripts": "5.0.1",
     "webpack-cli": "^3.3.11"
   },
   "scripts": {
@@ -46,7 +46,7 @@
     "eslint": "^6.6.0",
     "eslint-plugin-react": "^6.6.0",
     "eslint-plugin-react-hooks": "^4.0.4",
-    "jest": "^24.9.0",
+    "jest": "^30.2.0",
     "nodemon": "^2.0.4",
     "react-test-renderer": "^16.13.1"
   }
